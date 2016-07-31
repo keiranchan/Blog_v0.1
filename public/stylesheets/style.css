@@ -1,0 +1,58 @@
+body,p{
+  padding: 0;
+  margin: 0;
+}
+
+a:hover{
+  text-decoration: none;
+}
+.red {
+  color: red;
+}
+/*header*/
+.navbar-inverse .navbar-brand {
+  font-size: 28px;
+  font-weight: bold;
+  height: 70px;
+  line-height: 35px;
+  color: #40D2B1 !important;
+}
+.navbar-nav li{
+  margin-right: 10px;
+}
+
+.navbar-nav li a {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.navbar-inverse .navbar-toggle{
+  margin-top: 18px;
+}
+.navbar-inverse .navbar-toggle:hover {
+  background-color:rgb(69,210,184);
+}
+
+.content-0{
+  margin-top: 70px;
+}
+
+.content-20{
+  margin-top: 90px;
+}
+
+
+.active a,.navbar-nav li a:hover{
+  background: none !important;
+  border-bottom: 2px white solid;
+}
+
+@media screen and (max-width: 740px){
+  .navbar-nav{
+    width: 100px;
+  }
+}
+/*header*/
+
+

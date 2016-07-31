@@ -1,0 +1,73 @@
+/* Header */
+.large-header {
+	position: relative;
+	width: 100%;
+	background: #333;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center center;
+	z-index: 1;
+}
+
+
+.demo-2 .large-header {
+	background-image: url('../images/demo-2-bg.jpg');
+	background-position: center bottom;
+}
+
+
+
+.main-title {
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	color: #f9f1e9;
+	text-align: center;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate3d(-50%,-50%,0);
+	transform: translate3d(-50%,-50%,0);
+}
+
+
+.demo-2 .main-title {
+	font-family: 'Clicker Script', cursive;
+	font-weight: normal;
+	font-size: 8em;
+	padding-left: 10px;
+	text-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+}
+
+
+
+.demo-2 .btn-grp{
+	position: absolute;
+	left: 50%;
+	top:50%;
+	margin-top: 80px;
+	margin-left:-135px;
+}
+.demo-2 .btn-grp button{
+	width: 100px;
+	height: 30px;
+	margin-right: 20px;
+	border-radius: 20px;
+
+	line-height: 15px;
+}
+.demo-2 .btn-grp button a{
+	font-size: 18px;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.main-title .thin {
+	font-weight: 200;
+}
+
+@media only screen and (max-width : 768px) {
+
+	.demo-2 .main-title {
+		font-size: 4em;
+	}
+}

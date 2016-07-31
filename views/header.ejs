@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="zh-cn" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="utf-8">
+    <!--Ie8开启标准渲染模式-->
+    <meta http-equiv="X-UA-COMPATIBLE" content="IE-edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+    <title>Keiran's Blog</title>
+    <link type="text/css" href="/stylesheets/style.css" rel="stylesheet">
+    <link type="text/css" href="/stylesheets/bootstrap.min.css" rel="stylesheet">
+    <link type="text/css" href="/stylesheets/component.css" rel="stylesheet">
+</head>
+<body>
+<!--导航栏start-->
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsedUl" aria-expanded="false" type="button">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <% if (user) { %>
+            <a href="#" class="navbar-brand"><%=user.name%></a>
+            <% } else{%>
+            <a href="#" class="navbar-brand">Blog 1.0</a>
+            <%}%>
+        </div>
+
+
+<!--导航栏end-->
